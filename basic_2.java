@@ -22,7 +22,7 @@ class IfelseSolution {
     }
 }
 
-public class Ifelse {
+public class basic_2 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         IfelseSolution s = new IfelseSolution();

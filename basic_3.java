@@ -14,7 +14,7 @@ class Array1Solution{
 }
 
 
-public class Array1 {
+public class basic_3 {
     public static void main(String[] args){
         Array1Solution solution = new Array1Solution();
         List<Integer> nums = List.of(1,2,3,4,5);

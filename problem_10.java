@@ -16,10 +16,11 @@ class Solution {
 }
 
 
-public class problem10 {
+public class problem_10 {
     public static void main(String[] args) {
         int N = 5;
 
         // Create an instance of Solution class
         Solution sol = new Solution();
+}
 }

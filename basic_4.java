@@ -31,7 +31,7 @@ class SwitchcaseSolutoin{
     }
 }
 
-public class Switchcase {
+public class basic_4 {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
