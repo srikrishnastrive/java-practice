@@ -1,9 +1,10 @@
 
 class Solution11{
     public int countDigit(int n){
-        if(n ==0 ) {return 1;} 
+        if(n == 0 ) {return 1;} 
         int count = 0;
         while(n > 0){
+            @SuppressWarnings("unused")
             int lastDigit = n % 10;
             count = count + 1;
             n = n /10;

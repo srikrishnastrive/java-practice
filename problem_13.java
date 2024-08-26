@@ -20,6 +20,7 @@ class largeDigit{
 }
 public class problem_13 {
     public static void main(String[] args){
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int digit = sc.nextInt();
         largeDigit ld = new largeDigit();

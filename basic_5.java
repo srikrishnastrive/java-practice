@@ -26,8 +26,9 @@ class PrintXN {
    
 }
 
-public class PrintNum {
+public class basic_5 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the starting number (x): ");
         int x = sc.nextInt();

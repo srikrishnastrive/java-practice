@@ -33,6 +33,7 @@ class reverseNumber {
 }
 public class problem_12 {
     public static void main(String[] args){
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         reverseNumber rN = new reverseNumber();

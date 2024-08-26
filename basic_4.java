@@ -33,6 +33,7 @@ class SwitchcaseSolutoin{
 
 public class basic_4 {
     public static void main (String[] args){
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         int day = scanner.nextInt();
