@@ -18,7 +18,7 @@ class OddNumber{
             }
         }
         if(ind == -1) return "";
-        i =0;
+        i=0;
         while (i <= ind && s.charAt(i) == '0') {
             i++;
         }

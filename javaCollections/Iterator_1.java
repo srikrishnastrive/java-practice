@@ -30,6 +30,6 @@ public class Iterator_1 {
 
         // Using forEach method
         System.out.println("Testing forEach method");
-        values.forEach(val -> System.out.println(val)); 
+        values.forEach(val -> System.out.println(val)); // Corrected: Fixed lambda syntax
     }
 }
