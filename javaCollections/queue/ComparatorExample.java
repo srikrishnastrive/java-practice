@@ -1,6 +1,7 @@
+package queue;
 import java.util.*;
 
-class Student implements Comparable<Student> {
+class Student {
     String name;
     int rollNumber;
 
@@ -10,25 +11,27 @@ class Student implements Comparable<Student> {
     }
 
     @Override
-    public int compareTo(Student other) {
-        // Natural ordering based on rollNumber
-        return Integer.compare(this.rollNumber, other.rollNumber);
-    }
-
-    @Override
     public String toString() {
         return "Student{" + "name='" + name + '\'' + ", rollNumber=" + rollNumber + '}';
     }
 }
 
-public class ComparableExample {
+class NameComparator implements Comparator<Student> {
+    @Override
+    public int compare(Student s1, Student s2) {
+        return s1.name.compareTo(s2.name);
+    }
+}
+
+public class ComparatorExample {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
         students.add(new Student("Alice", 3));
         students.add(new Student("Bob", 1));
         students.add(new Student("Charlie", 2));
 
-        Collections.sort(students); // Sorts using the compareTo method
+        // Sort by name using a custom comparator
+        Collections.sort(students, new NameComparator());
 
         students.forEach(System.out::println);
     }

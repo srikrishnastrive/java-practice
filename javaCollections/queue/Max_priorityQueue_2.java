@@ -1,3 +1,4 @@
+package queue;
 import java.util.*;
 public class Max_priorityQueue_2 {
     public static void main(String[] args) {

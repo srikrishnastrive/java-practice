@@ -1,3 +1,4 @@
+package queue;
 import java.util.*;
 //we don't change in the method comparator
 public class comparator_1 {
