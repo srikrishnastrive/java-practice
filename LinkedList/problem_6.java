@@ -1,4 +1,4 @@
-
+//delete the k th position node in the linked list
 
 class Node{
     int data;

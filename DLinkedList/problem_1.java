@@ -91,6 +91,20 @@ public class problem_1 {
 
     }
 
+    public static Node delNode(Node temp){
+        Node prev = temp.back;
+        Node front = temp.next;
+        if(front == null){
+            prev.next =null;
+            temp.back = null;
+        
+        }
+        prev.next = temp.back = null;
+
+        return temp;
+
+    }
+
 
   
 
@@ -117,6 +131,9 @@ public class problem_1 {
         print(head);
         System.out.println("Doubly Linkedlist after deleting kth element");
         head = deleteKthNode(head, 2);
+        print(head);
+        System.out.println("Doubly Linkedlist after deleting the element");
+        head = delNode(head.next);
         print(head);
         
 
