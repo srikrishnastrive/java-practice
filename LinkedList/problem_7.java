@@ -43,6 +43,7 @@ public class problem_7 {
             prev = temp;
             temp = temp.next;
             
+            
         }
         return head;
     }
