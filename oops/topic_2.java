@@ -9,13 +9,13 @@ class BankAccount{
     // }
 
     //paramerterized constructor
-    public BankAccount(double _balance){
-        balance = _balance;
-        accountType = "savings";
+    public BankAccount(double balance){
+        this.balance = balance;
+        this.accountType = "savings";
     }
     public BankAccount(double _balance,String _accountType){
-        balance = _balance;
-        accountType = _accountType;
+        this.balance = _balance;
+        this.accountType = _accountType;
     }
 
     public void printBalance(){
